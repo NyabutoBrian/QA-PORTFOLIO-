@@ -508,22 +508,28 @@ section{
 }
 
 .experience-card{
-    background:#fff;
-    padding:20px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    background:#161B22;
+    border:1px solid #30363D;
+    padding:25px;
+    border-radius:18px;
     text-align:center;
-    transition:.3s;
+    transition:0.3s;
 }
 
 .experience-card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-8px);
+    border-color:#58A6FF;
+    box-shadow:0 15px 35px rgba(88,166,255,.2);
 }
 
 .experience-card h3{
-    font-size:2.3rem;
-    color:#0077ff;
+    font-size:2.5rem;
+    color:#58A6FF;
     margin-bottom:10px;
+}
+
+.experience-card p{
+    color:#C9D1D9;
 }
 
 .progress{
