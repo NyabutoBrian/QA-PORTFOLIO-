@@ -1,1 +1,1 @@
-console.log("QA Portfolio Loaded");
+console.log("Welcome to Nyabuto Brian's QA Portfolio!");
