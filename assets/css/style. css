@@ -120,3 +120,137 @@ body{
     background:#2EA043;
     transform:translateY(-4px);
 }
+
+/* ===================================
+   SECTIONS
+=================================== */
+
+section{
+    width:90%;
+    max-width:1200px;
+    margin:90px auto;
+}
+
+section h2{
+    text-align:center;
+    font-size:2.3rem;
+    color:#58A6FF;
+    margin-bottom:50px;
+    position:relative;
+}
+
+section h2::after{
+    content:"";
+    width:80px;
+    height:4px;
+    background:#58A6FF;
+    display:block;
+    margin:12px auto;
+    border-radius:10px;
+}
+
+/* ===================================
+   CARDS
+=================================== */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#161B22;
+    border:1px solid #30363D;
+    border-radius:18px;
+    padding:30px;
+    transition:all .35s ease;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#58A6FF;
+    box-shadow:0 15px 35px rgba(88,166,255,.18);
+}
+
+.card h3{
+    color:#58A6FF;
+    margin-bottom:15px;
+    font-size:1.3rem;
+}
+
+.card p{
+    color:#C9D1D9;
+}
+
+/* ===================================
+   DASHBOARD
+=================================== */
+
+#dashboard .card{
+    text-align:center;
+}
+
+#dashboard h3{
+    font-size:2.6rem;
+    color:#58A6FF;
+    margin-bottom:10px;
+}
+
+#dashboard p{
+    font-size:1rem;
+    color:#8B949E;
+}
+
+/* ===================================
+   ABOUT
+=================================== */
+
+#about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#C9D1D9;
+    font-size:1.1rem;
+}
+
+/* ===================================
+   SKILLS
+=================================== */
+
+#skills .card{
+    text-align:center;
+}
+
+#skills .card:hover{
+    background:#1C2128;
+}
+
+/* ===================================
+   PROJECTS
+=================================== */
+
+#projects .card{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+#projects .btn{
+    margin-top:20px;
+    display:inline-block;
+    text-align:center;
+}
+
+/* ===================================
+   BUTTON IMPROVEMENT
+=================================== */
+
+.btn{
+    box-shadow:0 10px 20px rgba(35,134,54,.25);
+}
+
+.btn:hover{
+    box-shadow:0 15px 30px rgba(35,134,54,.45);
+}
