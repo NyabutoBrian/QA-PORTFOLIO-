@@ -358,3 +358,144 @@ a:hover{
 .card:hover p{
     color:#F0F6FC;
 }
+
+
+/* ===================================
+   FOOTER
+=================================== */
+
+footer{
+    background:#161B22;
+    border-top:1px solid #30363D;
+    text-align:center;
+    padding:50px 20px;
+    margin-top:100px;
+}
+
+footer h2{
+    color:#58A6FF;
+    margin-bottom:15px;
+}
+
+footer p{
+    color:#8B949E;
+    margin:10px 0;
+}
+
+/* ===================================
+   SCROLLBAR
+=================================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0D1117;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#58A6FF;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#79C0FF;
+}
+
+/* ===================================
+   IMAGE ANIMATION
+=================================== */
+
+.profile-photo{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
+
+/* ===================================
+   SECTION ANIMATION
+=================================== */
+
+section{
+    animation:fadeUp .8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* ===================================
+   MOBILE RESPONSIVE
+=================================== */
+
+@media (max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:20px;
+}
+
+.nav-links{
+    flex-direction:column;
+    text-align:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+.job-title{
+    font-size:1.3rem;
+}
+
+.profile-photo{
+    width:170px;
+    height:170px;
+}
+
+.buttons{
+    flex-direction:column;
+    width:100%;
+}
+
+.btn{
+    width:100%;
+    text-align:center;
+}
+
+.cards{
+    grid-template-columns:1fr;
+}
+
+section{
+    width:94%;
+}
+
+}
