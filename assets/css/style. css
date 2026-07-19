@@ -39,25 +39,6 @@ nav a:hover{
     color:#58a6ff;
 }
 
-
-.buttons{
-    margin-top:30px;
-}
-
-.btn{
-    background:#238636;
-    color:white;
-    padding:12px 25px;
-    border-radius:8px;
-    text-decoration:none;
-    margin:10px;
-    display:inline-block;
-}
-
-.btn:hover{
-    background:#2ea043;
-}
-
 section{
     width:90%;
     max-width:1000px;
