@@ -259,17 +259,17 @@ section h2::after{
    BUG REPORTS
 =================================== */
 
-#Bug Reports .card{
+#bug-reports .card{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
 }
 
-#Bug Reports .card strong{
+#bug-reports .card strong{
     color:#58A6FF;
 }
 
-#Bug Reports .btn{
+#bug-reports .btn{
     margin-top:20px;
     text-align:center;
 }
